@@ -4,6 +4,7 @@ import co.poobike.dominio.Bicicleta;
 
 public class Aplicacion {
 	public static void main(String[] args) {
+		System.out.println("PROBANDO GIT");
 		Bicicleta bici = new Bicicleta("1324Geg6", "NEGRA");
 		
 //		bici.color = "NEGRA";
