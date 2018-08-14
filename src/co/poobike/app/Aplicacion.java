@@ -6,6 +6,7 @@ public class Aplicacion {
 	public static void main(String[] args) {
 		Bicicleta bici = new Bicicleta("1324Geg6", "NEGRA");
 		Bicicleta bici2 = new Bicicleta("4567hhy8", "Blanca");
+		Bicicleta bici3 = new Bicicleta("6667hhy8", "Roja");
 		
 //		bici.color = "NEGRA";
 //		bici.serial = "1324Geg6";
@@ -15,6 +16,9 @@ public class Aplicacion {
 		
 		System.out.println(bici2.color);
 		System.out.println(bici2.serial);
+		
+		System.out.println(bici3.color);
+		System.out.println(bici3.serial);
 		
 		bici.modificarCadencia(80);
 		bici.modificarCambio(5);
