@@ -4,14 +4,17 @@ import co.poobike.dominio.Bicicleta;
 
 public class Aplicacion {
 	public static void main(String[] args) {
-		System.out.println("PROBANDO GIT");
 		Bicicleta bici = new Bicicleta("1324Geg6", "NEGRA");
+		Bicicleta bici2 = new Bicicleta("4567hhy8", "Blanca");
 		
 //		bici.color = "NEGRA";
 //		bici.serial = "1324Geg6";
 		
 		System.out.println(bici.color);
 		System.out.println(bici.serial);
+		
+		System.out.println(bici2.color);
+		System.out.println(bici2.serial);
 		
 		bici.modificarCadencia(80);
 		bici.modificarCambio(5);
